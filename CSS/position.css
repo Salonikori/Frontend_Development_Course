@@ -1,0 +1,24 @@
+#box1{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: skyblue;
+    /* relative to the upper elements above and below
+    position:relative;
+    top: 100px;
+    left: 100px; */
+
+    /* Fixed to viewport
+    position: fixed; */
+
+    /* Sticks to the position while scrolling
+    position: sticky;
+    top: 0;
+    bottom: 0; */
+}
+#box2{
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+}

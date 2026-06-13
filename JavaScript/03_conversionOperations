@@ -1,0 +1,34 @@
+//Convert to Number
+let id = false
+console.log(typeof id)
+let numberId = Number(id)
+console.log(typeof numberId)
+console.log(numberId)
+
+// "55" => 55
+// "55abc" => NaN
+// true => 1;  false => 0 
+
+
+//Conversion to Boolean
+let data = "Hello"
+console.log(typeof data)
+let booleanData = Boolean(data)
+console.log(typeof booleanData)
+console.log(booleanData)
+
+// 1 => true; 0 => false
+// "" => false
+// "Hello" => true
+
+
+
+//Conversion to String
+let order = true
+console.log(typeof order)
+let stringOrder = String(order)
+console.log(typeof stringOrder)
+console.log(stringOrder)
+
+// 5 => 5
+// true => true

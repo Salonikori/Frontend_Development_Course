@@ -1,0 +1,36 @@
+.container{
+    border: 1px solid red ;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* there is no justify-items in flex */
+    /* flex-direction: row; */
+    /* row-gap: 20px; */
+    /* column-gap: 10px; */
+    /* gap: 20px 10px; */
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+.item{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    /* flex-grow: 1; */
+}
+
+.item-1{
+    /* flex-grow: 2; */
+    flex-shrink: 2;
+    align-self: flex-end;
+}
+/* Order less will display first and order large will display last */
+
+.order-1{
+    order: 1;
+}
+
+.order-2{
+    order: 2;
+}

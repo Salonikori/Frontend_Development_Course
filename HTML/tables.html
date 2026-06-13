@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            background-color: #313131;
+            color: #FFF;
+        }
+        th,td{
+            border: 1px solid;
+            border-color: black;
+            padding: 10px;
+        }
+
+        tr:nth-child(even){
+            background-color: #b9b9b9;
+        }
+    </style>
+</head>
+<body>
+    <table>
+
+        <colgroup>
+            <col   span="2" ; style="background-color: rgb(13, 78, 53);"/>
+        </colgroup>
+
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Jethalal</td>
+            <td>Comedian</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Bhide</td>
+            <td>Teacher</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Mehta</td>
+            <td>Writer</td>
+        </tr>
+    </table>
+    <br><br><br>
+        <!-- Now we will see the heading in columns  -->
+     <table>   
+         <tr>
+            <th colspan="2">Id</th>
+            <td>1</td>
+            <td>2</td>
+         </tr>
+         <tr>
+            <th>Name</th>
+            <td>ABC</td>
+            <td>XYZ</td>
+         </tr>
+    </table>
+</body>
+</html>

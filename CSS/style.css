@@ -1,0 +1,30 @@
+body{
+    background-color: #414141;
+}
+
+h1{
+    color: aliceblue;
+}
+
+p{
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#p1{
+    text-decoration: dotted underline;
+}
+
+#p2{
+    text-align: center;
+}
+
+.odd{
+    background-color: brown;
+}
+
+.even{
+    background-color: rgb(108, 199, 22);
+}

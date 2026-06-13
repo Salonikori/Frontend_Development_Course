@@ -1,0 +1,15 @@
+img{
+    height: 75px;
+    float: left;
+}
+
+.box{
+    border: 1px solid;
+    height: 50px;
+    width: 50px;
+    float: right;
+}
+
+/* p{
+    clear: left;
+} */

@@ -1,0 +1,20 @@
+body{
+    background-image: url(https://imgs.search.brave.com/GSaavre8cYQEap5Z82bahJg64xmODzBKSgelrR_cwzs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTg2/Njc1MDYyMi9waG90/by9taXN0eS1waW5l/LWZvcmVzdC1vbi10/aGUtbW91bnRhaW4t/c2xvcGUtaW4tYS1u/YXR1cmUtcmVzZXJ2/ZS5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9U0JxMXc4Znln/anpCUWdESlN5eG1o/eEp3dWx0a3hHQTZE/OFd1MzV1YkRmND0);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    background:linear-gradient(to right, skyblue,rgb(32, 209, 64));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p{
+    background:linear-gradient(to left, skyblue,rgb(33, 42, 148));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

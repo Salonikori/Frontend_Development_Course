@@ -1,0 +1,28 @@
+h1{
+    border: 5px solid;
+    width: 350px;
+    height: 250px;
+    padding: 50px;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px; */
+    margin: 50px;
+}
+
+#p1{
+    border: 5px solid;
+    width: 250px;
+    height: 150px;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#p2{
+    border: 5px solid;
+    width: 250px;
+    height: 150px;
+    background-color: blueviolet;
+}
+
