@@ -1,4 +1,6 @@
 //array
+//array copy operations create shallow copies i.e has the same reference
+//deep copies do not share the same reference
 
 const myArr = [0,1,2,3,4,5]
 const tvChars = ["Jethalal", "Taarak Mehta", "Bhide"]
