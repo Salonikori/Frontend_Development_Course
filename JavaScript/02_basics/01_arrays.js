@@ -19,7 +19,7 @@ myArr.push(7)
 myArr.pop()       //removes the element from the end
 console.log(myArr);
 
-myArr.unshift(8)      //add the lement at start
+myArr.unshift(8)      //add the element at start
 myArr.shift()         //remove the element from the start
 console.log(myArr);
 
