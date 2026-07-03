@@ -30,3 +30,33 @@ function intro(username = "sam"){
     return `Hello ${username}`
 }
 console.log(intro("taarak"));
+
+
+//passing objects and arrays in function
+function cartTotalPrice(cal1, val2, ...num1){         //rest operator saves each value in array
+    return num1
+}
+console.log(cartTotalPrice(200, 600, 800, 500));
+
+const user = {
+    name : "Nobita",
+    friend : "Doraemon"
+}
+
+function handleObject(anyObj){
+    return `I am ${anyObj.name} and my friend is ${anyObj.friend}`
+}
+
+// console.log(handleObject(user));
+console.log(handleObject({          //can directly pass the object instead of predefined object
+    name : "Nobita",
+    friend : "Doraemon"
+}))
+
+const arr = [100, 200, 400, 500]
+function secondElementOfArray(anyArr){
+    return anyArr[1]
+}
+// console.log(secondElementOfArray(arr));
+console.log(secondElementOfArray([100, 200, 400, 500]));
+
