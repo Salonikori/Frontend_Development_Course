@@ -48,3 +48,26 @@ const user = [
 ]
 console.log(user);
 console.log(user[1].email);
+
+
+//object de structuring
+
+const course ={
+    coursename : "JS",
+    courseprice : "free",
+    courseplatform : "online"
+}
+
+// course.courseprice
+const {courseprice} = course
+console.log(courseprice);    //instead of writing course.courseprice we can only write courseprice
+
+const {courseplatform : plt} = course
+console.log(plt);      //can also give a nickname
+
+// JSON 
+// {
+//     "name" : "xyz",
+//     "id" : 1
+// }
+
