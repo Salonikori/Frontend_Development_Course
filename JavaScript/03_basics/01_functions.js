@@ -1,7 +1,7 @@
 function printMyName(){    //reusable block of code that performs a specific task, takes inputs, and returns an output
     console.log("J");
     console.log("E");
-    console.log("T");
+    console.log("T" );
     console.log("H");
     console.log("A");
 }
