@@ -1,17 +1,17 @@
 //while loop
 
-// let i = 0
-// while (i <= 5) {
-//     console.log(`The value is ${i}`);
-//     i = i+1
-// }
+let i = 0
+while (i <= 5) {
+    console.log(`The value is ${i}`);
+    i = i+1
+}
 
-// let myHeroes = ["Jethalal", "Mehta Sahab", "Iyer"]
-// let arr = 0
-// while (arr < myHeroes.length) {
-//     console.log(`Hero is ${myHeroes[arr]}`);
-//     arr++
-// }
+let myHeroes = ["Jethalal", "Mehta Sahab", "Iyer"]
+let arr = 0
+while (arr < myHeroes.length) {
+    console.log(`Hero is ${myHeroes[arr]}`);
+    arr++
+}
 
 //do while loop
 //runs the function at least one time without checking the condition
